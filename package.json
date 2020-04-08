@@ -1,0 +1,29 @@
+{
+  "name": "shorter-dts",
+  "version": "1.0.0",
+  "description": "Typescript short hand wrapper definitions",
+  "main": "defines/Shorter.d.ts",
+  "files": [
+    "defines/*.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtsushiYamashita/shorter-dts.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "atsushi_yamashita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AtsushiYamashita/shorter-dts/issues"
+  },
+  "homepage": "https://github.com/AtsushiYamashita/shorter-dts#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
